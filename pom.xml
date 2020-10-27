@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.eliasnogueira</groupId>
         <artifactId>test-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 
-        <restrictions-client>1.0.0-SNAPSHOT</restrictions-client>
+        <restrictions-client>1.0.0</restrictions-client>
     </properties>
 
     <dependencies>
