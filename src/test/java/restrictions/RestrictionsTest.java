@@ -33,7 +33,7 @@ import restrictions.client.RestrictionsClient;
 
 class RestrictionsTest {
 
-    RestrictionsClient restrictionsClient;
+    private RestrictionsClient restrictionsClient;
 
     @BeforeEach
     void preConditions() {
