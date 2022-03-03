@@ -6,13 +6,13 @@
     <parent>
         <groupId>com.eliasnogueira</groupId>
         <artifactId>test-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.2</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>restrictions-test</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
 
     <properties>
         <java.version>11</java.version>
@@ -20,7 +20,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
 
-        <restrictions-client>1.0.0</restrictions-client>
+        <restrictions-client>1.0.1</restrictions-client>
     </properties>
 
     <dependencies>
