@@ -26,6 +26,7 @@ package restrictions;
 import static org.hamcrest.CoreMatchers.is;
 
 import io.restassured.response.ValidatableResponse;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -33,10 +34,10 @@ import restrictions.client.RestrictionsClient;
 
 class RestrictionsTest {
 
-    private RestrictionsClient restrictionsClient;
+    private static RestrictionsClient restrictionsClient;
 
-    @BeforeEach
-    void preConditions() {
+    @BeforeAll
+    static void preConditions() {
         restrictionsClient = new RestrictionsClient();
     }
 
